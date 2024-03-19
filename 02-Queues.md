@@ -94,4 +94,4 @@ Write a Python program that:
 **You can use the following scenario to test the program:** 
 - The doors have opened and people came in to be added to the waiting list. Susan, Cari, Bob and Jim came in, in that order.
 
-
+Solution example [here](https://github.com/reaganhsmith/CSE212/blob/main/02-Queue-Solution.py)
