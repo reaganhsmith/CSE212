@@ -81,6 +81,39 @@ else:
 ```
 This would print false because the list is not empty. 
 
+# Example:
+You can also view the example [here]()
+Say you have a grocery list and need to get to food items in a certain order so they do not melt or defrost:
+```python
+# Creates the queue
+shopping_list = [];
+
+# Add items to queue. remember first in, first out (FIFO) so we want to grab frozen ingredients last
+shopping_list.append("Bread")
+shopping_list.append("Crackers")
+shopping_list.append("Peanutbutter")
+shopping_list.append("Apples")
+shopping_list.append("Broccoli")
+shopping_list.append("Frozen Pizza")
+shopping_list.append("Ice Cream")
+
+print("")
+# Lets view our list when we get to the store so we know what to buy:
+for item in shopping_list:
+    print(item)
+print("")
+# Then we will take our shopping list to the store and remove items from first to last while the list is not empty
+while len(shopping_list) > 0:
+    front_line = shopping_list[0]
+    print('You picked up', front_line)
+    shopping_list.pop(0)
+    print(shopping_list)
+    print("")
+else:
+    print("You have picked up everything off your list!")
+
+```
+
 # Problem to Solve: 
 You just started a new job at the DMV. You noticed how unorganized everything is and that most people are not waiting their turn to be helped. There is cutting, rudeness and overall it makes it not a great place to be. You need to create a system so that when people arrive at the DMV they give their name and then are added to a queue to be helped. This way it is organized and no one is getting angry. When the queue is empty the day is over!! 
 
@@ -94,4 +127,4 @@ Write a Python program that:
 **You can use the following scenario to test the program:** 
 - The doors have opened and people came in to be added to the waiting list. Susan, Cari, Bob and Jim came in, in that order.
 
-Solution example [here](https://github.com/reaganhsmith/CSE212/blob/main/02-Queue-Solution.py)
+Solution example [here](https://github.com/reaganhsmith/CSE212/blob/main/02.1-Queue-Solution.py)

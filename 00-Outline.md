@@ -5,7 +5,7 @@
 ## II. Queues
 * Introduction
 * Read and Write a Queue
-* Examples
+* Example
 * Problem to Solve
 ## III. Sets
 * Introduction
