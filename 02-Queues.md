@@ -82,7 +82,7 @@ else:
 This would print false because the list is not empty. 
 
 # Example:
-You can also view the example [here]()
+You can also view the example [here](https://github.com/reaganhsmith/CSE212/blob/main/QueueExample.py)
 Say you have a grocery list and need to get to food items in a certain order so they do not melt or defrost:
 ```python
 # Creates the queue
@@ -98,6 +98,7 @@ shopping_list.append("Frozen Pizza")
 shopping_list.append("Ice Cream")
 
 print("")
+print("Your shopping list:")
 # Lets view our list when we get to the store so we know what to buy:
 for item in shopping_list:
     print(item)
