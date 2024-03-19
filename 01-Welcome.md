@@ -13,4 +13,4 @@ For questions or comments, please send them to:
 
 Reagan Houser
 
-Reagansmith@byui.edu
+[Reagansmith@byui.edu](Reagansmith@byui.edu)
