@@ -5,12 +5,11 @@ Welcome to a tutorial on Python data structures. This tutorial will go over the 
 - [Sets](https://github.com/reaganhsmith/CSE212/blob/main/03-Sets.md)
 - [Trees](https://github.com/reaganhsmith/CSE212/blob/main/04-Trees.md)
 
+Each module will have descriptions, examples and art. Following the module, There is a problem that you can solve. After making an attempt at solving the problem, you can view the solution. 
 
-Each module will contain descriptions and examples. At the end of each module, you will find a problem to solve on your own. You should only look at the solution after you have attempted to solve the problem first.
-
-Contact
+## Contact
 For questions or comments, please send them to:
 
 Reagan Houser
 
-[Reagansmith@byui.edu](Reagansmith@byui.edu)
+Reagansmith@byui.edu
