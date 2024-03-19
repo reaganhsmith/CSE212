@@ -1,4 +1,4 @@
-Data Structure Tutorial
+# Data Structure Tutorial
 Welcome to a tutorial on Python data structures. This tutorial will go over the following data structures:
 
 - Queues 
