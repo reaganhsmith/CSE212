@@ -7,9 +7,7 @@
 
 ## Conflicts
 
-## Set key methods
-
-## Image showing explanation for queues 
+## Key Methods
 
 ## Examples
 

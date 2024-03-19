@@ -6,6 +6,4 @@
 
 ## Key terms
 
-## Image showing explanation for queues 
-
 ## Examples

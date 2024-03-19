@@ -5,7 +5,7 @@ Have you ever stood in line at disney and then you see get people trying to get 
 
 When you are in a line the person in the next in line to ride the rollercoaster is the **front**. The person at the end of the line is the **back**. Say the person in the front gets on the rollercoast and is no longer in line, they have now be **dequeued**. They ride the rollercoaster and then go to the back of the line. They are now the back and have been **enqueued**. 
 
-From this example, it is apparent that queues can be used to process requests in an organized and orderly manner. No one gets to cut or jump ahead. The front gets dequeued when they leave and someone added to the back gets enqueued. 
+From this example, it is apparent that queues can be used to process requests in an organized and orderly manner. No one gets to cut or jump ahead. The front gets dequeued when they leave and someone added to the back gets enqueued. Queues help with order and sequential processing. This is important for tasts where order does matter. An example would be event handeling, job processing or scheduling. 
 
 ## Read/Write a queue
 When using Queues in python, they are represented using lists.
@@ -81,6 +81,16 @@ else:
 This would print false because the list is not empty. 
 
 # Problem to Solve: 
+You just started a new job at the DMV. You noticed how unorganized everything is and that most people are not waiting their turn to be helped. There is cutting, rudeness and overall it makes it not a great place to be. You need to create a system so that when people arrive at the DMV they give their name and then are added to a queue to be helped. This way it is organized and no one is getting angry. When the queue is empty the day is over!! 
 
+Write a Python program that: 
+- Adds the people to a queue in the order they come in
+- Checks if the queue is empty or not
+- If the queue is not empty the person in front gets removed and then the list is printed
+- When the queue is empty print end of day!! 
+
+
+**You can use the following scenario to test the program:** 
+- The doors have opened and people came in to be added to the waiting list. Susan, Cari, Bob and Jim came in, in that order.
 
 
