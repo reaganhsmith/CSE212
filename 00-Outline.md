@@ -9,7 +9,6 @@
 * Problem to Solve
 ## III. Sets
 * Introduction
-* Characteristics
 * Hashing
 * Conflicts
 * Key Methods
