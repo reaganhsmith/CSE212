@@ -162,3 +162,8 @@ print("There will be:" + str(length_list) + " kids in attendance")
 ```
 
 # Problem to solve
+Each week you go to meal prep recipes and determine what you need to get while grocery shopping. You get frustrated because some recipes have similar ingredients and you do not want to accidentally add them both to your list. You wish you could which ingredients repeat and then make sure they do not repeat in your final grocery list. You also wish you knew how many items where on your list so you could keep track of how many items are in your cart. This way you stick to your budget and don't go over. 
+
+Write a group of functions to help you figure out what items are repeated for your recipes. Then combine all your recipes together to a single grocery list. Finally figure out how many items are in your list for while you shop. 
+
+Last minute you remember a few things you want to add to your list! You want to check if it is already in your list and if not then you can add it in. 
