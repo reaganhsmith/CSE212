@@ -116,7 +116,7 @@ grocery_set = {"apples","chips","salsa","mangos"};
 set3 = fruit_set & grocery_set;
 print(set3); # Returns: {'mangos', 'apples'}
 ```
-The second method works better because nothing needs to be downloaded. 
+
 
 **Union of TWO Sets**
 We can also unite 2 different sets together. This is done in 2 ways: 
@@ -136,7 +136,7 @@ grocery_set = {"apples","chips","salsa","mangos"};
 set3 = fruit_set | grocery_set;
 print(set3);# Returns: {'mangos', 'apples', 'salsa', 'pineapple', 'chips'}
 ```
-Again the second method works better because nothing needs to be downloaded. 
+
 
 ## Example
 Here is an example of sets being used. 
