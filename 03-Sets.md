@@ -58,9 +58,107 @@ print("kiwi" in fruit_set); # Returns FALSE
 ## Conflicts
 Sometimes within hashing, 2 data items will be placed at the same index. Like if we wanted numbers 1-10 in a 5 spot list there 6 and 7 might both be placed at index 3. This is called a conflict. 
 To deal with conflicts there are two possible solutions:
-1. **Open Addressing** is the first option. 
-2. 
+1. **Open Addressing** is the first option. open addressing can help us determine if something is already at that index. Then it will let us know to move it to the next open spot. This is usually done by moving the data to the right one index. This might cause more conflicts if other data is already in that index as well. 
+2. **Chaining** is the second option. This option allows us to make a list to hold all the values that occupy that same space. This does not create more conflicts. 
+
+To help with the preformance of our program, we might need to make the list holding the values bigger. This way there is less conflicts nad more places for data to go. 
 ## Key Methods
 
-## Examples
+**Create Empty Set**
+```python
+my_fruit = set()
+```
+**Add to the Set**
+```python
+my_fruit = {"apples","mangos","pineapple"};
+my_fruit.add("strawberries")
+print(my_fruit) # Returns {'pineapple', 'mangos', 'Strawberries', 'apples'}
+```
 
+**Remove from the Set**
+```python
+my_fruit = {"apples","mangos","pineapple"};
+my_fruit.add("strawberries")
+my_fruit.remove("apples")
+print(my_fruit) {'pineapple', 'strawberries', 'mangos'}
+```
+
+**Check if value in the set**
+```python
+fruit_set = {"apples","mangos","pineapple"};
+
+print("apples" in fruit_set); # Returns TRUE
+print("kiwi" in fruit_set); # Returns FALSE
+```
+
+**Size of the Set**
+```python
+fruit_set = {"apples","mangos","pineapple"};
+len_set = len(fruit_set);
+print(len_set); # Returns 3
+```
+**Intersection of TWO Sets**
+we can find where two sets have matching points by determining where they intersect. This can be written in 2 ways:
+1. 
+```python
+
+fruit_set = {"apples","mangos","pineapple"};
+grocery_set = {"apples","chips","salsa","mangos"};
+
+set3 = intersection(fruit_set, grocery_set);
+print(set3); # Returns: {'mangos', 'apples'}
+```
+2. 
+```python
+fruit_set = {"apples","mangos","pineapple"};
+grocery_set = {"apples","chips","salsa","mangos"};
+
+set3 = fruit_set & grocery_set;
+print(set3); # Returns: {'mangos', 'apples'}
+```
+The second method works better because nothing needs to be downloaded. 
+
+**Union of TWO Sets**
+We can also unite 2 different sets together. This is done in 2 ways: 
+1. 
+```python
+fruit_set = {"apples","mangos","pineapple"};
+grocery_set = {"apples","chips","salsa","mangos"};
+
+set3 = union(fruit_set, grocery_set);
+print(set3); # Returns: {'mangos', 'apples', 'salsa', 'pineapple', 'chips'}
+```
+2. 
+```python
+fruit_set = {"apples","mangos","pineapple"};
+grocery_set = {"apples","chips","salsa","mangos"};
+
+set3 = fruit_set | grocery_set;
+print(set3);# Returns: {'mangos', 'apples', 'salsa', 'pineapple', 'chips'}
+```
+Again the second method works better because nothing needs to be downloaded. 
+
+## Example
+Here is an example of sets being used. 
+```python
+# Kate and Meg are turning 12 and planning their birthday part invite list
+# Create 2 sets to store who visited these girls birthdays 
+kate_birthday_set = {"Mary","Jack","Trish","Karen","Sylvia","Matt","Bob"};
+meg_birthday_set = {"Litty","Poppy","Bob","Sylvia","Jane","Mark","Mat"};
+
+# The birthday parties are on the same day at the same time!!!
+# Use intersection to determine who cannot go to both parties. 
+party_intersect = kate_birthday_set & meg_birthday_set;
+print(party_intersect) # Bob and sylvia cannot attend both parties. 
+
+# The girls realize they did this and decided to combine their party lists together:
+party_union = kate_birthday_set | meg_birthday_set;
+# Now everyone can come and eat yummy cake! Print a list of everyone who will be at the party
+print(party_union);
+
+# Kate and meg need to know how many people are attending to know how many party favors to make 
+length_list = len(party_union);
+print("There will be:" + str(length_list) + " kids in attendance")
+```
+
+# Problem to solve
