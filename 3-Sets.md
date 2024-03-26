@@ -167,3 +167,30 @@ Each week you go to meal prep recipes and determine what you need to get while g
 Write a group of functions to help you figure out what items are repeated for your recipes. Then combine all your recipes together to a single grocery list. Finally figure out how many items are in your list for while you shop. 
 
 Last minute you remember a few things you want to add to your list! You want to check if it is already in your list and if not then you can add it in. 
+
+Write a python program that: 
+- Checks if ingredients are reepeated
+- Combines all the recipes into a single set
+- Counts how many items are in your new shopping set
+- Adds an item to your shopping set if its not already in there 
+
+**You can use the following scenario to test the program:** 
+You found a few recipes you want to cook this week. the first is spicy chicken. It has the following ingredients:
+1. Chicken 
+2. Chili Paste
+3. Broccoli
+4. Carrots
+The next recipe you want to make is chicken chili: 
+1. Chicken 
+2. Broth
+3. Beans
+4. Corn
+The final recipe you want to make is steak bowls: 
+1. Steak
+2. Carrots
+3. Broccoli
+4. Corn
+5. Onion
+6. Quinoa
+
+Solution example [here](https://github.com/reaganhsmith/CSE212/blob/main/3.1-Sets-Solution.py)

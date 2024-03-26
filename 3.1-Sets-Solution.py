@@ -41,9 +41,9 @@ def add_to_groceries(item, set_name):
 
 # Tests to determine if everything is working
 
-recipe1 = {"tomatoes", "onions", "garlic", "pasta", "steak"}
-recipe2 = {"broccoli", "onions", "carrots", "chicken"}
-recipe3 = {"pasta", "garlic", "olive oil", "carrots", "hamburger"}
+recipe1 = {"Chicken"",Chili Paste","Broccoli", "Carrots"};
+recipe2 = {"Chicken", "Broth","Beans","Corn"}
+recipe3 = {"Steak","Carrots","Corn","Broccoli","Onion","Quinoa"};
 
 # create an array holding all the sets to check for repeats
 recipes = [recipe1, recipe2, recipe3]
@@ -62,8 +62,8 @@ print("Number of items to buy:", num_items)
 print(" ")
 
 # Adding last-minute items
-grocery_list = add_to_groceries("broccoli", grocery_list) # Broccoli will not get added because it is already in the list
-grocery_list = add_to_groceries("rice", grocery_list)
+grocery_list = add_to_groceries("Broccoli", grocery_list) # Broccoli will not get added because it is already in the list
+grocery_list = add_to_groceries("Rice", grocery_list)
 
 print("New list with added items:", grocery_list)
 num_items = count_items(grocery_list)
