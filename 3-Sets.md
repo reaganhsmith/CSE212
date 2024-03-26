@@ -180,11 +180,13 @@ You found a few recipes you want to cook this week. the first is spicy chicken. 
 2. Chili Paste
 3. Broccoli
 4. Carrots
+
 The next recipe you want to make is chicken chili: 
 1. Chicken 
 2. Broth
 3. Beans
 4. Corn
+
 The final recipe you want to make is steak bowls: 
 1. Steak
 2. Carrots
