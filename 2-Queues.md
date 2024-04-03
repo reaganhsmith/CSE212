@@ -2,7 +2,7 @@
 
 ## Introduction: 
 Have you ever stood in line at disney and then you see get people trying to get in front of you "to catch up with their group"? It can be very frustrating! Honestly waiting in lines in general is frustrating. Well with Python Queues the first in is also the first out. FIFO "First In, First Out."
-View image example [here](https://github.com/reaganhsmith/CSE212/blob/main/QueuesIMG.jpg)
+![Image of people waiting in like for rollercoaster](https://github.com/reaganhsmith/CSE212/blob/main/QueuesIMG.jpg)
 
 When you are in a line the person in the next in line to ride the rollercoaster is the **front**. The person at the end of the line is the **back**. Say the person in the front gets on the rollercoast and is no longer in line, they have now be **dequeued**. They ride the rollercoaster and then go to the back of the line. They are now the back and have been **enqueued**. 
 
