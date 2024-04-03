@@ -142,7 +142,9 @@ For work you are asked to create a Binary Search Tree that can add data, remove 
 9. Have funcntions to read and print the data from smallest to largest
 
 **You can use the following scenario to test the program:** 
-
+- Insert the data: 7,4,1,7,2,11
+- Check if 1, 6, 10 and 11 are in the tree
+- Remove 1 and 11 from the tree
 
 
 Solution example [here](https://github.com/reaganhsmith/CSE212/blob/main/4.1-Trees-Solution.py)
