@@ -129,3 +129,20 @@ print(" ")
 ```
 
 # Problem to Solve
+For work you are asked to create a Binary Search Tree that can add data, remove data and check if data is already in the tree. You are using a BST because you want the data to be ordered and you want to make sure no duplicate date gets inserted. For this to work properly do the following: 
+
+1. Have a class to create the BST
+2. Have a class to hold Node info
+3. Initilize the date in your node class
+4. Initilize the data in the BST class
+5. Have a function to insert data
+6. Have a function to follow the proper steps ot insert data (make sure to check if data is already in the tree)
+7. Have a function to remove data from the tree
+8. Have a function to check if the data is in the tree
+9. Have funcntions to read and print the data from smallest to largest
+
+**You can use the following scenario to test the program:** 
+
+
+
+Solution example [here](https://github.com/reaganhsmith/CSE212/blob/main/4.1-Trees-Solution.py)
