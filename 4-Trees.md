@@ -9,6 +9,7 @@ Binary Tree Data structures are a structure where each node has at max two child
 ### Binary Search Trees
 Binary Search Trees (BST) are useful because they allow the user to keep a list of numbers that are sorted. It sorts and places data by comparing the data with the values of the parent nodes. Each node in this tree can have a max of 2 children nodes. Just like binary trees, these are called the left child and right child. The data less than the parent is placed to the left (left child) and the data that is greater than the parent node gets added to the right (right child). BST can find an element that is present in O(n) worst-case time. This means that when searching for an item in the BTS with worst-case scenario, it will take O(n) time. 
 
+![Basic info on Binary Trees.](https://github.com/reaganhsmith/CSE212/blob/main/BST.jpg)
 
 
 ## Key terms
