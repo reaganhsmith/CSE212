@@ -21,5 +21,23 @@ To add in the number 26:
 **Balanced Binary Search Tree (balanced BST)** is the same as a BST except their is not a dramatic difference between the height of subtrees. The height is found by counting the number of nodes from the root. So in the image above ^^ 22 would have a height of 2 because it is two spots from the root (spot 20 and 15). Since 2 is not a dramatic difference, this tree is balanced.  There are a variety of different ways to check if a tree is balanced or unbalanced. Some algorithms are red black trees and AVL (Adelson-Velskii and Landis) trees. AVL can detect when the tree is unbalaced and perform a node rotation so that it becomes balanced. 
 ![Basic info on Balance BST](https://github.com/reaganhsmith/CSE212/blob/main/BalanceBST.jpg)
 ## Key terms
+### Operations
+To insert a value into a a BST use: insert(value)
 
-## Examples
+To remove a value efrom a BST use: remove(value)
+
+To check if a value is in the tree use: contains(value)
+
+To view all values from smallest to largest use: traverse_forward
+
+To view all values from largest to smallest use: traverse_reverse
+
+To determine the height of a node in the tree use the root node and use: height(node)
+
+To determine the size of the tree use: size()
+
+To check if the tree is empty or not use (returns true or false): empty()
+## Example
+
+
+# Problem to Solve
