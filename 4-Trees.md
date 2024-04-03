@@ -38,6 +38,8 @@ To determine the size of the tree use: size()
 
 To check if the tree is empty or not use (returns true or false): empty()
 ## Example
-
+Here is an example of how trees are used, and values are inserted or removed. 
+```python
+```
 
 # Problem to Solve
