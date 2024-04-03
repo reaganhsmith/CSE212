@@ -2,10 +2,10 @@
 
 ## Introduction: 
 Have you ever stood in line at disney and then you see get people trying to get in front of you "to catch up with their group"? It can be very frustrating! Honestly waiting in lines in general is frustrating. Well with Python Queues the first in is also the first out. FIFO "First In, First Out."
-![Image of people waiting in like for rollercoaster](https://github.com/reaganhsmith/CSE212/blob/main/QueuesIMG.jpg)
+
 
 When you are in a line the person in the next in line to ride the rollercoaster is the **front**. The person at the end of the line is the **back**. Say the person in the front gets on the rollercoast and is no longer in line, they have now be **dequeued**. They ride the rollercoaster and then go to the back of the line. They are now the back and have been **enqueued**. 
-
+![Image of people waiting in like for rollercoaster](https://github.com/reaganhsmith/CSE212/blob/main/QueuesIMG.jpg)
 From this example, it is apparent that queues can be used to process requests in an organized and orderly manner. No one gets to cut or jump ahead. The front gets dequeued when they leave and someone added to the back gets enqueued. Queues help with order and sequential processing. This is important for tasts where order does matter. An example would be event handeling, job processing or scheduling. 
 
 ## Read/Write a queue
